@@ -311,7 +311,7 @@ class acf_field_code_area extends acf_field
 				return '<script>'.$value.'</script>';
 				break;
 			case 'htmlmixed':
-				return nl2br($value);
+				return $value;
 				break;
 			case 'php':
 				return eval($value);
