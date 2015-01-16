@@ -146,7 +146,7 @@ class acf_field_code_area extends acf_field
 		$language = '';
 		switch($field["language"]){
 			case 'plain':
-				$language = 'Plain'
+				$language = 'Plain';
 				break;
 			case 'css':
 				$language = 'CSS';
